@@ -7,6 +7,7 @@ AI-focused frontend developer portfolio built with Next.js, featuring server-sid
 - **Next.js 15** - React framework with SSR/SSG
 - **React 19** - UI library
 - **GSAP** - Animation library
+- **React Icons** - Icon library
 - **CSS** - Custom styling
 
 ## Features

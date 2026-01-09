@@ -20,7 +20,7 @@ export default function Hero() {
       <h1 ref={headingRef} id="hero-title">
         maria c. lima
       </h1>
-      <p style={{ maxWidth: "520px", color: "#b5b5b5" }}>
+      <p className="hero-description">
         Exploring the possibilities of artificial intelligence through practical applications.
       </p>
     </section>

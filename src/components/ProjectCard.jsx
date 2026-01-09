@@ -24,7 +24,7 @@ export default function ProjectCard({ title, description, tech, githubLink, live
       onMouseLeave={onLeave}
     >
       <h3>{title}</h3>
-      <p style={{ color: "#b5b5b5" }}>{description}</p>
+      <p className="muted-text">{description}</p>
       {tech && (
         <div className="tech-stack">
           {tech.map((item) => (
