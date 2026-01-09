@@ -5,15 +5,15 @@ const projects = [
     title: "AI Chat",
     description:
       "AI-powered conversational interface using Groq's lightning-fast LLM inference.",
-    tech: ["Groq", "Next.js", "React", "TypeScript"],
+    tech: ["Groq with Llama 4 Scout", "Serper API", "Next.js", "Tailwind", "React", "TypeScript"],
       githubLink: 'https://github.com/mclima/generative-ai/tree/main/groq-chatbot',
       liveLink: 'https://chat.mariaclima.ai',
   },
   {
     title: "AI Image Generator",
     description:
-      "Generate creative images using AI models with an intuitive interface.",
-    tech: ["OpenAI", "Next.js", "React", "TypeScript"],
+      "Generate creative posters and banners using AI models with an intuitive interface.",
+    tech: ["OpenAI DALL-E 2", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/image-generator',
     liveLink: 'https://images.mariaclima.ai',
   },

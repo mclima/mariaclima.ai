@@ -115,24 +115,33 @@ section {
 
 footer {
   margin-top: 4rem;
+  text-align: center;
 }
 
 footer p {
   color: #777;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-divider {
+  color: #555;
 }
 
 .email-link {
   color: #777;
   display: flex;
   align-items: center;
+  gap: 0.25rem;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .email-link:hover {
-  color: #999;
+  color: #fff;
 }
 
 .muted-text {
