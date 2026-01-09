@@ -20,8 +20,8 @@ const projects = [
   {
     title: "AI Task System",
     description:
-      "Intelligent task management powered by AI to optimize productivity from LangChain Academy learning course.",
-    tech: ["OpenAI","Python", "Docker"],
+      "Intelligent task management powered by AI with long-term memory to optimize productivity.  Code from LangChain Academy learning course.",
+    tech: ["OpenAI","LangGraph", "LangChain", "Python", "Docker", "Trustcall", "Pydantic"],
     githubLink: 'https://github.com/marialima/generative-ai/tree/main/task-maestro',
     liveLink: 'https://tasks.mariaclima.ai/docs',
   }
