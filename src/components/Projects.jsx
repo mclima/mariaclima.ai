@@ -2,12 +2,20 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "AI Constitution Assistant",
+    description:
+      "AI-powered conversational chatbot that answers questions about the constitution using RAG (Retrieval-Augmented Generation) and featuring conversation memory.",
+    tech: ["Next.js", "LangChain", "OpenAI GPT-4o-mini", "MemoryVectorStore", "pdf-parse", "Tailwind", "React", "JavaScript"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/constitution-assistant',
+    liveLink: 'https://constitution-assistant.mariaclima.ai',
+  },
+  {
     title: "AI Chat",
     description:
       "AI-powered conversational interface using Groq's lightning-fast LLM inference.",
     tech: ["Groq with Llama 4 Scout", "Serper API", "Next.js", "Tailwind", "React", "TypeScript"],
-      githubLink: 'https://github.com/mclima/generative-ai/tree/main/groq-chatbot',
-      liveLink: 'https://chat.mariaclima.ai',
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/groq-chatbot',
+    liveLink: 'https://chat.mariaclima.ai',
   },
   {
     title: "AI Image Generator",
