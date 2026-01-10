@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Generic Chatbot",
     description:
-      "AI-powered conversational interface using Groq's lightning-fast LLM inference.",
+      "AI-powered conversational interface using Groq's lightning-fast LLM inference and featuring conversation memory.",
     tech: ["Groq with Llama 4 Scout", "Serper API", "Next.js", "Tailwind", "React", "TypeScript"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/groq-chatbot',
     liveLink: 'https://chat.mariaclima.ai',
