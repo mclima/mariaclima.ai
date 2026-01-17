@@ -47,7 +47,6 @@ const projects = [
       "Intelligent task management powered by AI with long-term memory to optimize productivity.  Code from LangChain Academy learning course.",
     tech: ["OpenAI","LangGraph", "LangChain", "Python", "Docker", "Trustcall", "Pydantic", "Railway"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/task-maestro',
-    liveLink: 'https://tasks.mariaclima.ai/docs',
   }
 ];
 
