@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Research Outline Generator",
     description:
-      "Multi-agent AI system that automatically researches topics and generates comprehensive outlines with summaries by orchestrating specialized agents for search, web scraping, analysis, and synthesis.",
+      "Multi-agent AI system that automatically researches topics and generates comprehensive outlines with summaries by orchestrating specialized agents for search, web scraping, analysis, and synthesis, using a sequential architecture.",
     tech: ["FastAPI", "LangGraph", "LangChain", "Streamlit", "OpenAI GPT-4o-mini", "Tavily API", "Railway"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/research-assistant',
     liveLink: 'https://research-assistant.mariaclima.ai',
