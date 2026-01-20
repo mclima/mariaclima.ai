@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Stock Analysis",
+    title: "US Stock Analysis",
     description:
       "AI-powered US stock analysis dashboard with real-time data visualization, sentiment analysis, and intelligent insights. Features OpenAI GPT-4o-mini integration for market analysis, LangChain for agent orchestration, and ChromaDB for RAG-based context retrieval. Includes interactive charts, news aggregation with sentiment scoring, and historical data analysis. Built with rate limiting, caching strategies, and free-tier API optimization.",
     tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'RAG', 'ChromaDB', 'Polygon.io API', 'Recharts', 'Axios', "Railway", "Vercel"],
