@@ -2,6 +2,14 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Stock Analysis",
+    description:
+      "AI-powered US stock analysis dashboard with real-time data visualization, sentiment analysis, and intelligent insights. Features OpenAI GPT-4o-mini integration for market analysis, LangChain for agent orchestration, and ChromaDB for RAG-based context retrieval. Includes interactive charts, news aggregation with sentiment scoring, and historical data analysis. Built with rate limiting, caching strategies, and free-tier API optimization.",
+    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'RAG', 'ChromaDB', 'Polygon.io API', 'Recharts', 'Axios', "Railway", "Vercel"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
+    liveLink: 'https://stock-agent.mariaclima.ai',
+  },
+  {
     title: "Agentic Tech Job Board",
     description:
       "AI-powered job aggregation platform using LangGraph multi-agent architecture to automatically collect, classify, and match tech jobs from multiple sources. Features intelligent resume matching with AI-powered skill extraction, role categorization, and personalized job recommendations. Built with parallel agent ingestion, PostgreSQL deduplication, and real-time job filtering.",
@@ -10,25 +18,25 @@ const projects = [
     liveLink: 'https://job-board.mariaclima.ai',
 },
   {
+    title: "US Constitution Assistant",
+    description:
+      "AI-powered conversational chatbot that answers questions about the constitution using RAG (Retrieval-Augmented Generation). Features PDF document processing with automatic text chunking, OpenAI embeddings for vector representation, and MemoryVectorStore for similarity-based retrieval. Includes conversation memory for context-aware follow-up questions and accessible, responsive design.",
+    tech: ["Next.js", "LangChain", "OpenAI GPT-4o-mini", "RAG", "MemoryVectorStore", "OpenAI Embeddings", "pdf-parse", "Tailwind", "React", "JavaScript", "Vercel"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/constitution-assistant',
+    liveLink: 'https://constitution-assistant.mariaclima.ai',
+  },
+  {
     title: "Research Outline Generator",
     description:
-      "Multi-agent AI system that automatically researches topics and generates comprehensive outlines with summaries by orchestrating specialized agents for search, web scraping, analysis, and synthesis, using a sequential architecture.",
+      "Multi-agent AI research system that autonomously investigates topics and generates comprehensive outlines with detailed summaries. Features LangGraph orchestration of specialized agents: a search agent using Tavily API for web discovery, a scraping agent for content extraction, an analysis agent for information synthesis, and an outline generation agent. Built with sequential workflow architecture for reliable research pipeline execution and structured output generation.",
     tech: ["FastAPI", "LangGraph", "LangChain", "Streamlit", "OpenAI GPT-4o-mini", "Tavily API", "Railway"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/research-assistant',
     liveLink: 'https://research-assistant.mariaclima.ai',
   },
   {
-    title: "Constitution Assistant",
-    description:
-      "AI-powered conversational chatbot that answers questions about the constitution using RAG (Retrieval-Augmented Generation) and featuring conversation memory.",
-    tech: ["Next.js", "LangChain", "OpenAI GPT-4o-mini", "MemoryVectorStore", "pdf-parse", "Tailwind", "React", "JavaScript", "Vercel"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/constitution-assistant',
-    liveLink: 'https://constitution-assistant.mariaclima.ai',
-  },
-  {
     title: "Generic Chatbot",
     description:
-      "AI-powered conversational interface using Groq's lightning-fast LLM inference and featuring conversation memory.",
+      "AI-powered conversational chatbot leveraging Groq's ultra-fast LLM inference with Llama 4 Scout for near-instantaneous responses. Features conversation memory for context-aware interactions, Serper API integration for real-time web search capabilities, and a clean, responsive interface. Optimized for speed and user experience with streaming responses and minimal latency.",
     tech: ["Groq with Llama 4 Scout", "Serper API", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/groq-chatbot',
     liveLink: 'https://chat.mariaclima.ai',
@@ -36,7 +44,7 @@ const projects = [
   {
     title: "Image Generator",
     description:
-      "Generate creative posters and banners using AI models with an intuitive interface.",
+      "AI-powered image generation tool using OpenAI's DALL-E 2 to create custom posters, banners, and visual content from text prompts. Features an intuitive interface for prompt engineering, real-time image generation, and high-quality output suitable for marketing materials and creative projects. Built with responsive design for seamless creation across devices.",
     tech: ["OpenAI DALL-E 2", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/image-generator',
     liveLink: 'https://images.mariaclima.ai',
