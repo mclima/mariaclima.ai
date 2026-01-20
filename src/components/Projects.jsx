@@ -4,7 +4,7 @@ const projects = [
   {
     title: "US Stock Analysis",
     description:
-      "AI-powered US stock analysis dashboard with real-time data visualization, sentiment analysis, and intelligent insights. Features OpenAI GPT-4o-mini integration for market analysis, LangChain for agent orchestration, and ChromaDB for RAG-based context retrieval. Includes interactive charts, news aggregation with sentiment scoring, and historical data analysis. Built with rate limiting, caching strategies, and free-tier API optimization.",
+      "AI-powered US stock analysis dashboard with real-time data visualization and intelligent insights. Features OpenAI GPT-4o-mini integration for market analysis, LangChain for agent orchestration, and ChromaDB for RAG-based context retrieval. Includes interactive charts, news aggregation with sentiment analysis, and historical data analysis. Built with rate limiting, caching strategies, and free-tier API optimization.",
     tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'RAG', 'ChromaDB', 'Polygon.io API', 'Recharts', 'Axios', "Railway", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
     liveLink: 'https://stock-agent.mariaclima.ai',
@@ -20,7 +20,7 @@ const projects = [
   {
     title: "US Constitution Assistant",
     description:
-      "AI-powered conversational chatbot that answers questions about the constitution using RAG (Retrieval-Augmented Generation). Features PDF document processing with automatic text chunking, OpenAI embeddings for vector representation, and MemoryVectorStore for similarity-based retrieval. Includes conversation memory for context-aware follow-up questions and accessible, responsive design.",
+      "AI-powered conversational chatbot that answers questions about the US Constitution using RAG (Retrieval-Augmented Generation). Features PDF document processing with automatic text chunking, OpenAI embeddings for vector representation, and MemoryVectorStore for similarity-based retrieval. Includes conversation memory for context-aware follow-up questions and accessible, responsive design.",
     tech: ["Next.js", "LangChain", "OpenAI GPT-4o-mini", "RAG", "MemoryVectorStore", "OpenAI Embeddings", "pdf-parse", "Tailwind", "React", "JavaScript", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/constitution-assistant',
     liveLink: 'https://constitution-assistant.mariaclima.ai',
