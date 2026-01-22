@@ -26,6 +26,14 @@ const projects = [
     liveLink: 'https://constitution-assistant.mariaclima.ai',
   },
   {
+    title: "NewsGenie",
+    description:
+      "AI-powered news and information assistant that combines real-time news updates with conversational AI. Features smart query classification, multi-source integration (GNews + Tavily), and LangGraph workflow orchestration for intelligent routing between news requests and general queries.",
+    tech: ["LangGraph", "Streamlit", "OpenAI GPT-4o-mini", "GNews API", "Tavily", "Python", "Railway"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/newsgenie',
+    liveLink: 'https://news-genie.mariaclima.ai',
+  },
+  {
     title: "Research Outline Generator",
     description:
       "Multi-agent AI research system that autonomously investigates topics and generates comprehensive outlines with detailed summaries. Features LangGraph orchestration of specialized agents: a search agent using Tavily API for web discovery, a scraping agent for content extraction, an analysis agent for information synthesis, and an outline generation agent. Built with sequential workflow architecture for reliable research pipeline execution and structured output generation.",
