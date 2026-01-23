@@ -9,14 +9,14 @@ const projects = [
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
     liveLink: 'https://stock-agent.mariaclima.ai',
   },
-  {
-    title: "Agentic Tech Job Board",
-    description:
-      "AI-powered job aggregation platform using LangGraph multi-agent architecture to automatically collect, classify, and match tech jobs from multiple sources. Features intelligent resume matching with AI-powered skill extraction, role categorization, and personalized job recommendations. Built with parallel agent ingestion, PostgreSQL deduplication, and real-time job filtering.",
-    tech: ["LangGraph", "FastAPI", "Next.js", "PostgreSQL", "OpenAI GPT-4o-mini", "Python", "TypeScript", "TailwindCSS", "Railway", "Vercel"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/job-board',
-    liveLink: 'https://job-board.mariaclima.ai',
-},
+//   {
+//     title: "Agentic Tech Job Board",
+//     description:
+//       "AI-powered job aggregation platform using LangGraph multi-agent architecture to automatically collect, classify, and match tech jobs from multiple sources. Features intelligent resume matching with AI-powered skill extraction, role categorization, and personalized job recommendations. Built with parallel agent ingestion, PostgreSQL deduplication, and real-time job filtering.",
+//     tech: ["LangGraph", "FastAPI", "Next.js", "PostgreSQL", "OpenAI GPT-4o-mini", "Python", "TypeScript", "TailwindCSS", "Railway", "Vercel"],
+//     githubLink: 'https://github.com/mclima/generative-ai/tree/main/job-board',
+//     liveLink: 'https://job-board.mariaclima.ai',
+// },
   {
     title: "US Constitution Assistant",
     description:
