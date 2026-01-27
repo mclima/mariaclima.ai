@@ -9,14 +9,14 @@ const projects = [
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
     liveLink: 'https://stock-agent.mariaclima.ai',
   },
-  {
-    title: "Tech Job Board",
-    description:
-      "AI-powered tech job board that keeps a fresh feed of remote US roles. It pulls jobs from multiple APIs, normalizes and deduplicates them in PostgreSQL, and automatically categorizes roles (AI + Engineering). You can also upload/paste your resume and get a ranked list of matches using a hybrid scoring approach (skills overlap, Sentence Transformers semantic similarity, and title alignment). Deployed with a FastAPI backend on Railway and a Next.js frontend on Vercel, with scheduled refresh runs via GitHub Actions.",
-    tech: ["FastAPI", "Next.js", "PostgreSQL", "OpenAI GPT-4o-mini", "LangChain", "Sentence Transformers", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
-    liveLink: 'https://tech-job-board.mariaclima.ai',
-},
+//   {
+//     title: "Tech Job Board",
+//     description:
+//       "AI-powered tech job board that keeps a fresh feed of remote US roles. It pulls jobs from multiple APIs, normalizes and deduplicates them in PostgreSQL, and automatically categorizes roles (AI + Engineering). You can also upload/paste your resume and get a ranked list of matches using a hybrid scoring approach (skills overlap, Sentence Transformers semantic similarity, and title alignment). Deployed with a FastAPI backend on Railway and a Next.js frontend on Vercel, with scheduled refresh runs via GitHub Actions.",
+//     tech: ["FastAPI", "Next.js", "PostgreSQL", "OpenAI GPT-4o-mini", "LangChain", "Sentence Transformers", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
+//     githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
+//     liveLink: 'https://tech-job-board.mariaclima.ai',
+// },
   {
     title: "US Constitution Assistant",
     description:
