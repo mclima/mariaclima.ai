@@ -9,14 +9,14 @@ const projects = [
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
     liveLink: 'https://stock-agent.mariaclima.ai',
   },
-//   {
-//     title: "Tech Job Board",
-//     description:
-//       "AI-powered tech job board that keeps a fresh feed of remote US roles. It pulls jobs from multiple APIs, normalizes and deduplicates them in PostgreSQL, and automatically categorizes roles (AI + Engineering). You can also upload/paste your resume and get a ranked list of matches using a hybrid scoring approach (skills overlap, Sentence Transformers semantic similarity, and title alignment). Deployed with a FastAPI backend on Railway and a Next.js frontend on Vercel, with scheduled refresh runs via GitHub Actions.",
-//     tech: ["FastAPI", "Next.js", "PostgreSQL", "OpenAI GPT-4o-mini", "LangChain", "Sentence Transformers", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
-//     githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
-//     liveLink: 'https://tech-job-board.mariaclima.ai',
-// },
+  {
+    title: "Tech Job Board",
+    description:
+      "AI-powered tech job board with intelligent resume matching. Aggregates remote US tech jobs from multiple APIs, stores them in PostgreSQL with pre-computed embeddings for fast matching (~10 seconds). Upload your resume to get ranked matches using a hybrid ML algorithm: 40% skills overlap, 35% semantic similarity (Sentence Transformers with 3 embeddings per job), and 25% title alignment. Optimized embedding strategy computes job embeddings once during refresh and caches them in the database, then only computes 3 resume embeddings per match. FastAPI backend on Railway, Next.js frontend on Vercel.",
+    tech: ["FastAPI", "Next.js", "PostgreSQL", "Sentence Transformers", "scikit-learn", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
+    liveLink: 'https://tech-job-board.mariaclima.ai',
+},
   {
     title: "US Constitution Assistant",
     description:
