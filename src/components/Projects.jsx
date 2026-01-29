@@ -69,7 +69,7 @@ const projects = [
 export default function Projects() {
   return (
     <section aria-labelledby="projects-title">
-      <h2 id="projects-title">Generative AI Projects</h2>
+      <h2 id="projects-title">AI Projects</h2>
       <div className="project-grid">
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
