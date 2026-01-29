@@ -12,8 +12,8 @@ const projects = [
   {
     title: "Tech Job Board",
     description:
-      "AI-powered tech job board with intelligent resume matching. Aggregates remote US tech jobs from multiple APIs, stores them in PostgreSQL with pre-computed embeddings for fast matching (~10 seconds). Upload your resume to get ranked matches using a hybrid ML algorithm: 40% skills overlap, 35% semantic similarity (Sentence Transformers with 3 embeddings per job), and 25% title alignment. Optimized embedding strategy computes job embeddings once during refresh and caches them in the database, then only computes 3 resume embeddings per match. FastAPI backend on Railway, Next.js frontend on Vercel.",
-    tech: ["FastAPI", "Next.js", "PostgreSQL", "Sentence Transformers", "scikit-learn", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
+      "AI-powered tech job board with intelligent resume matching and personalized insights. Aggregates remote US tech jobs from multiple APIs with, stores them in PostgreSQL with pre-computed embeddings for fast matching (~15-20 seconds). Upload your resume to get ranked matches using a hybrid ML algorithm: 40% skills overlap, 35% semantic similarity (Sentence Transformers with 3 embeddings per job), and 25% title alignment. Top 5 matches (80%+ scores) receive AI-generated explanations via GPT-4o-mini highlighting aligned skills and growth opportunities. Optimized embedding strategy computes job embeddings once during refresh and caches them in the database, then only computes 3 resume embeddings per match. FastAPI backend on Railway, Next.js frontend on Vercel.",
+    tech: ["FastAPI", "Next.js", "PostgreSQL", "Sentence Transformers", "OpenAI GPT-4o-mini", "LangChain", "scikit-learn", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
     liveLink: 'https://tech-job-board.mariaclima.ai',
 },
