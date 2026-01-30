@@ -171,3 +171,9 @@ footer p {
   background: #ffffff;
   opacity: 0.8;
 }
+
+@media (min-width: 768px) {
+  .starfield .star {
+    transform: scale(1.5);
+  }
+}
