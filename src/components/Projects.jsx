@@ -50,7 +50,7 @@ const projects = [
     liveLink: 'https://research-assistant.mariaclima.ai',
   },
   {
-    title: "Generic Chatbot",
+    title: "AI Chat Assistant",
     description:
       "AI-powered conversational chatbot leveraging Groq's ultra-fast LLM inference with Llama 4 Scout for near-instantaneous responses. Features conversation memory for context-aware interactions, Serper API integration for real-time web search capabilities, and a clean, responsive interface. Optimized for speed and user experience with streaming responses and minimal latency.",
     tech: ["Groq with Llama 4 Scout", "Serper API", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
