@@ -18,6 +18,14 @@ const projects = [
     liveLink: 'https://tech-job-board.mariaclima.ai',
   },
   {
+    title: "Research Outline Generator",
+    description:
+      "Multi-agent AI research system that autonomously investigates topics and generates comprehensive outlines with detailed summaries. Features LangGraph orchestration of specialized agents: a search agent using Tavily API for web discovery, a scraping agent for content extraction, an analysis agent for information synthesis, and an outline generation agent. Built with sequential workflow architecture for reliable research pipeline execution and structured output generation.",
+    tech: ["FastAPI", "LangGraph", "LangChain", "Streamlit", "OpenAI GPT-4o-mini", "Tavily API", "Railway"],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/research-assistant',
+    liveLink: 'https://research-assistant.mariaclima.ai',
+  },
+  {
     title: "Business Assistant",
     description:
       "AI-powered business intelligence assistant leveraging RAG (Retrieval-Augmented Generation) to analyze business data and generate actionable insights. Features interactive visualizations, conversational AI interface, PDF document retrieval with FAISS vector store, and LangSmith-powered model evaluation. Built with modern LLMOps best practices.",
@@ -40,14 +48,6 @@ const projects = [
     tech: ["LangGraph", "Streamlit", "OpenAI GPT-4o-mini", "GNews API", "Tavily", "Python", "Railway"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/newsgenie',
     liveLink: 'https://news-genie.mariaclima.ai',
-  },
-  {
-    title: "Research Outline Generator",
-    description:
-      "Multi-agent AI research system that autonomously investigates topics and generates comprehensive outlines with detailed summaries. Features LangGraph orchestration of specialized agents: a search agent using Tavily API for web discovery, a scraping agent for content extraction, an analysis agent for information synthesis, and an outline generation agent. Built with sequential workflow architecture for reliable research pipeline execution and structured output generation.",
-    tech: ["FastAPI", "LangGraph", "LangChain", "Streamlit", "OpenAI GPT-4o-mini", "Tavily API", "Railway"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/research-assistant',
-    liveLink: 'https://research-assistant.mariaclima.ai',
   },
   {
     title: "AI Chat Assistant",
