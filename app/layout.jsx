@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import '../src/styles/main.css';
 
 export const metadata = {
