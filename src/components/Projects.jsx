@@ -73,13 +73,13 @@ const projects = [
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/image-generator',
     liveLink: 'https://images.mariaclima.ai',
   },
-  {
-    title: "Task System",
-    description:
-      "Intelligent task management powered by AI with long-term memory to optimize productivity.  Code from LangChain Academy learning course.",
-    tech: ["OpenAI","LangGraph", "LangChain", "Python", "Docker", "Trustcall", "Pydantic"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/task-maestro',
-  }
+  // {
+  //   title: "Task System",
+  //   description:
+  //     "Intelligent task management powered by AI with long-term memory to optimize productivity.  Code from LangChain Academy learning course.",
+  //   tech: ["OpenAI","LangGraph", "LangChain", "Python", "Docker", "Trustcall", "Pydantic"],
+  //   githubLink: 'https://github.com/mclima/generative-ai/tree/main/task-maestro',
+  // }
 ];
 
 export default function Projects() {
