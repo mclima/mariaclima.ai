@@ -4,8 +4,8 @@ const projects = [
   {
     title: "US Stock Assistant",
     description:
-      "AI-powered stock dashboard with complete Model Context Protocol (MCP) implementation - the 'USB-C for AI' standard. Features 11 MCP tools across 3 servers using FastMCP framework and MCP Python SDK, solving the M×N integration problem with automatic tool discovery and schema introspection. Integrates FinBERT (ProsusAI/finbert) for 70-90%+ sentiment confidence on financial news analysis, GPT-4o-mini for AI insights, real-time WebSocket price streaming, Redis caching, and interactive portfolio tracking. Showcases production-ready MCP deployment demonstrating interoperability with any MCP-compatible AI client.",
-    tech: ['MCP Protocol', 'FastMCP', 'MCP Python SDK', 'Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'FinBERT', 'Redis', 'PostgreSQL', 'WebSocket', 'Polygon.io', 'Docker', 'Railway', 'Vercel'],
+      "AI-powered stock dashboard featuring LangGraph multi-agent orchestration and production-grade testing. Orchestrates 3 specialized agents (price alerts, research, rebalancing) with sequential and parallel execution modes for automated portfolio management. Implements LangChain structured output with Pydantic models and GPT-4 for type-safe AI analysis. Features complete Model Context Protocol (MCP) implementation with 11 tools across 3 servers, enabling universal AI client interoperability. Integrates FinBERT for 70-90%+ sentiment confidence on financial news, real-time WebSocket streaming, and Redis caching.",
+    tech: ['LangGraph', 'LangChain', 'Hypothesis', 'MCP Protocol', 'FastMCP', 'MCP Python SDK', 'Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4', 'FinBERT', 'Pydantic', 'Redis', 'PostgreSQL', 'WebSocket', 'Polygon.io', 'Docker', 'Railway', 'Vercel'],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/us-stock-assistant',
     liveLink: 'https://us-stock-assistant.mariaclima.ai',
   },
