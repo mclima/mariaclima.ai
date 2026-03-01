@@ -2,11 +2,11 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "US Stock Analysis",
+    title: "US Stock Assistant",
     description:
-      "AI-powered US stock analysis dashboard with real-time data visualization and intelligent insights. Features OpenAI GPT-4o-mini integration for market analysis, LangChain for agent orchestration, and ChromaDB for RAG-based context retrieval. Includes interactive charts, news aggregation with sentiment analysis, and historical data analysis. Built with rate limiting, caching strategies, and free-tier API optimization.",
-    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'RAG', 'ChromaDB', 'Polygon.io API', 'Recharts', 'Axios', "Railway", "Vercel"],
-    githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
+      "AI-powered stock dashboard demonstrating complete end-to-end Model Context Protocol (MCP) integration - the 'USB-C for AI' universal standard. Implements 11 MCP tools across 3 servers using official FastMCP framework (server-side) and MCP Python SDK (client-side), solving the M×N integration problem with automatic tool discovery and schema introspection. Features FinBERT (ProsusAI/finbert) for 70-90%+ sentiment confidence on financial news, GPT-4o-mini for AI analysis, real-time WebSocket price streaming, Redis caching, and interactive portfolio tracking. Showcases production-ready MCP deployment on Railway with HTTP/SSE transport, demonstrating interoperability with any MCP-compatible AI client.",
+    tech: ['MCP Protocol', 'FastMCP', 'MCP Python SDK', 'Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'FinBERT', 'Redis', 'PostgreSQL', 'WebSocket', 'Polygon.io', 'Docker', 'Railway', 'Vercel'],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/us-stock-assistant',
     liveLink: 'https://stock-agent.mariaclima.ai',
   },
   {
