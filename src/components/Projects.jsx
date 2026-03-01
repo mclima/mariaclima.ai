@@ -7,7 +7,7 @@ const projects = [
       "AI-powered stock dashboard with complete Model Context Protocol (MCP) implementation - the 'USB-C for AI' standard. Features 11 MCP tools across 3 servers using FastMCP framework and MCP Python SDK, solving the M×N integration problem with automatic tool discovery and schema introspection. Integrates FinBERT (ProsusAI/finbert) for 70-90%+ sentiment confidence on financial news analysis, GPT-4o-mini for AI insights, real-time WebSocket price streaming, Redis caching, and interactive portfolio tracking. Showcases production-ready MCP deployment demonstrating interoperability with any MCP-compatible AI client.",
     tech: ['MCP Protocol', 'FastMCP', 'MCP Python SDK', 'Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'LangChain', 'FinBERT', 'Redis', 'PostgreSQL', 'WebSocket', 'Polygon.io', 'Docker', 'Railway', 'Vercel'],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/us-stock-assistant',
-    liveLink: 'https://stock-agent.mariaclima.ai',
+    liveLink: 'https://us-stock-assistant.mariaclima.ai',
   },
   {
     title: "Tech Job Board",
