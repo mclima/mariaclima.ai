@@ -60,8 +60,8 @@ const projects = [
   {
     title: "VisionAssist",
     description:
-      "Real-time object detection web app designed to assist visually impaired users. Detects 90 common objects using COCO-SSD model with audio announcements. Features privacy-first architecture with all processing happening client-side in the browser, achieving 50-60 FPS on M3 Pro. Includes smart audio feedback that announces detected objects on change or every 5 seconds.",
-    tech: ["Next.js", "React", "TypeScript", "TensorFlow.js", "COCO-SSD", "Tailwind CSS", "shadcn/ui", "WebGL", "Web Speech API", "Vercel"],
+      "Real-time object detection web app designed to assist visually impaired users. Detects 80 common objects using YOLOv8n model with audio announcements. Features privacy-first architecture with all processing happening client-side in the browser, achieving 20-30 FPS with ~50ms inference time. Includes smart audio feedback that announces consistently detected objects on change or every 5 seconds.",
+    tech: ["Next.js", "React", "TypeScript", "TensorFlow.js", "YOLOv8n", "Tailwind CSS", "shadcn/ui", "WebGL", "Web Speech API", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/vision-assist',
     liveLink: 'https://vision-assist.mariaclima.ai',
   },
