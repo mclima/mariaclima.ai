@@ -26,7 +26,7 @@ const projects = [
     liveLink: 'https://research-assistant.mariaclima.ai',
   },
   {
-    title: "Business Assistant",
+    title: "Catalyst AI - Business Assistant",
     description:
       "AI-powered business intelligence assistant leveraging RAG (Retrieval-Augmented Generation) to analyze business data and generate actionable insights. Features interactive visualizations, conversational AI interface, PDF document retrieval with FAISS vector store, and LangSmith-powered model evaluation. Built with modern LLMOps best practices.",
     tech: ["Streamlit", "LangChain", "OpenAI GPT-3.5", "FAISS", "LangSmith", "Plotly", "Pandas", "Python", "RAG", "Railway"],
