@@ -2,6 +2,14 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Stock Agent",
+    description:
+      "AI-powered stock analysis dashboard with real-time data visualization and on-demand insights. Features FinBERT sentiment analysis for news articles with 70-90%+ confidence, RAG (Retrieval-Augmented Generation) with ChromaDB vector store for contextual insights, and OpenAI GPT-4o-mini for intelligent stock analysis. Implements batch processing for performance optimization, achieving sub-3-second initial load times. Supports US stocks and cryptocurrency with Polygon.io API integration, interactive charts, and comprehensive financial metrics.",
+    tech: ['Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'FinBERT', 'LangChain', 'ChromaDB', 'RAG', 'Pydantic', 'Polygon.io', 'Tailwind CSS', 'Vercel'],
+    githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
+    liveLink: 'https://stock-agent.mariaclima.ai',
+  },
+  /*{
     title: "US Stock Assistant",
     description:
       "AI-powered stock dashboard featuring LangGraph multi-agent orchestration and LLM-based evaluation. Orchestrates 3 specialized agents (price alerts, research, rebalancing) with sequential and parallel execution modes for automated portfolio management. Implements LangChain structured output with Pydantic models and GPT-4 for type-safe AI analysis. Features complete Model Context Protocol (MCP) implementation with 11 tools across 3 servers, enabling universal AI client interoperability. Integrates FinBERT for 70-90%+ sentiment confidence with GPT-4 LLM-as-a-Judge evaluation for real-time accuracy assessment. Includes real-time WebSocket streaming and Redis caching.",
@@ -9,6 +17,7 @@ const projects = [
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/us-stock-assistant',
     liveLink: 'https://us-stock-assistant.mariaclima.ai',
   },
+  */
   {
     title: "Tech Job Board",
     description:
