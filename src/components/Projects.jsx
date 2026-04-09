@@ -77,8 +77,8 @@ const projects = [
   {
     title: "Image Generator",
     description:
-      "AI-powered image generation tool using OpenAI's DALL-E 2 to create custom posters, banners, and visual content from text prompts. Features an intuitive interface for prompt engineering, real-time image generation, and high-quality output suitable for marketing materials and creative projects. Built with responsive design for seamless creation across devices.",
-    tech: ["OpenAI DALL-E 2", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
+      "AI-powered image generation tool using OpenAI's GPT Image 1 to create custom posters, banners, and visual content from text prompts. Features an intuitive interface for prompt engineering, real-time image generation, and high-quality output suitable for marketing materials and creative projects. Built with responsive design for seamless creation across devices.",
+    tech: ["OpenAI GPT Image 1", "Next.js", "Tailwind", "React", "TypeScript", "Vercel"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/image-generator',
     liveLink: 'https://images.mariaclima.ai',
   },
