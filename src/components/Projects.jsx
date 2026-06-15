@@ -24,7 +24,7 @@ const projects = [
       "AI-powered tech job board with intelligent resume matching and personalized insights. Aggregates remote US tech jobs, stores them in PostgreSQL with pre-computed embeddings for fast matching (~15-20 seconds). Resume upload enables personalized job rankings using a hybrid ML algorithm: 40% skills overlap, 35% semantic similarity (Sentence Transformers), and 25% title alignment. Top 5 matches (80%+ scores) receive AI-generated explanations via GPT-4o-mini highlighting aligned skills and growth opportunities.",
     tech: ["FastAPI", "Next.js", "PostgreSQL", "Sentence Transformers", "OpenAI GPT-4o-mini", "LangChain", "scikit-learn", "Python", "TypeScript", "Tailwind CSS", "Railway", "Vercel", "GitHub Actions"],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/tech-job-board',
-    liveLink: 'https://tech-job-board.mariaclima.ai',
+    //liveLink: 'https://tech-job-board.mariaclima.ai',
   },
   {
     title: "Research Outline Generator",
