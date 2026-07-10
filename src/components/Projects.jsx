@@ -7,7 +7,7 @@ const projects = [
       "AI-powered stock analysis dashboard featuring LangGraph multi-agent orchestration with 5 specialized agents: Manager (workflow coordination), Data (real-time market data), Analysis (FinBERT sentiment with 70-90%+ confidence), Research (RAG with ChromaDB vector store), and Insights (GPT-4o-mini analysis). Implements batch processing and model pre-caching for performance optimization, achieving sub-3-second analysis. Supports US stocks and cryptocurrency with Polygon.io API integration, interactive charts, and comprehensive financial metrics.",
     tech: ['LangGraph', 'LangChain', 'Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'OpenAI GPT-4o-mini', 'FinBERT', 'ChromaDB', 'RAG', 'Pydantic', 'Polygon.io', 'Tailwind CSS', 'Vercel'],
     githubLink: 'https://github.com/mclima/generative-ai/tree/main/stock-agent',
-    liveLink: 'https://stock-agent.mariaclima.ai',
+    //liveLink: 'https://stock-agent.mariaclima.ai',
   },
   /*{
     title: "US Stock Assistant",
